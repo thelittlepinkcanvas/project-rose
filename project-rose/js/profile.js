@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const PROFILES = [
-    { id: 'alice',      image: 'images/alice info hz.png' },
-    { id: 'benedict',      image: 'images/benedict info hz.png' },
+    { id: 'alice',image: 'images/alice info hz.png' },
+    { id: 'benedict',image: 'images/benedict info hz.png' },
+    { id: 'pierce',image: 'images/pierce hz.png' },
   ];
 
   const track = document.getElementById('carouselTrack');

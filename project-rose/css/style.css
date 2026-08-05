@@ -422,13 +422,12 @@ p{ margin:0 0 1em; }
 /* ============================================================
    PROFILES
    ============================================================ */
-.profile-grid{ display:grid; grid-template-columns:1fr 1fr; gap:1rem; padding:0 var(--gutter) 3rem; }
+.profile-grid{ display:grid; grid-template-columns:1fr 1fr; gap:8px; padding:0 var(--gutter) 3rem; }
 .profile-card{
-  position:relative; aspect-ratio:3/4; border-radius:var(--radius); overflow:hidden;
+  position:relative; aspect-ratio:3/4; border-radius:var(--radius); overflow:hidden; margin:0;
 }
 .profile-card img{ width:100%; height:100%; object-fit:cover; transition:transform .3s ease; }
 .profile-card:hover img{ transform:scale(1.05); }
-.profile-card.placeholder{ display:flex; align-items:center; justify-content:center; color:var(--mist-dim); font-family:var(--font-mono); font-size:.7rem; text-align:center; }
 
 @media (min-width:700px){ .profile-grid{ grid-template-columns:repeat(4,1fr); } }
 
