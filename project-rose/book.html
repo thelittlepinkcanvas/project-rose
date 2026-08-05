@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapters — Project Rose</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<main>
+  <div class="page-head">
+    <p class="eyebrow" id="bookEyebrow">Project Rose</p>
+    <h1 id="bookTitle">Chapters</h1>
+    <p class="sub" id="bookSynopsis" style="max-width:520px; margin:.6rem auto 0; text-transform:none; letter-spacing:0; font-family:var(--font-body); color:var(--mist); font-size:.9rem;"></p>
+  </div>
+
+  <div class="wrap" style="max-width:640px; padding-bottom:1rem;">
+    <ul id="chapterList" style="display:flex; flex-direction:column; gap:.8rem;"></ul>
+  </div>
+
+  <div class="wrap" style="max-width:640px; padding-bottom:3rem;">
+    <div id="countdownBox" class="book-card" style="display:none; text-align:center; justify-content:center;">
+      <div class="book-info" style="text-align:center;">
+        <span class="eyebrow">Next Chapter</span>
+        <h2 id="countdownText" style="font-size:1.6rem;">&mdash;</h2>
+        <p style="color:var(--mist); font-size:.85rem;">Release date is set by the author and updates automatically.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="js/components.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/release-config.js"></script>
+<script src="js/book.js"></script>
+</body>
+</html>

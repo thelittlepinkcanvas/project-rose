@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter — Project Rose</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<main>
+  <div class="chapter-head">
+    <p class="eyebrow" id="chapterEyebrow">Loading&hellip;</p>
+    <h1 id="chapterTitle">&nbsp;</h1>
+  </div>
+
+  <article class="chapter-body" id="chapterBody"></article>
+
+  <nav class="chapter-nav">
+    <button class="btn nav-float-prev" id="prevBtn">&larr; Prev</button>
+    <button class="btn btn-primary nav-float-next" id="nextBtn">Next &rarr;</button>
+  </nav>
+</main>
+
+<div id="site-footer"></div>
+
+<!-- Mini recap popup (shown from chapter 4 onward) -->
+<div class="modal-backdrop" id="recapModal">
+  <div class="modal-box">
+    <button class="modal-close" id="recapCloseBtn" aria-label="Close recap">&times;</button>
+    <h3>Mini Recap</h3>
+    <p id="recapText">Rose Auberon discovered that her family crest — the rose — marks the syndicate known as the Black Rose, and that a man named Elias Voss has been guarding a door meant only for her bloodline.</p>
+  </div>
+</div>
+
+<!-- Save progress popup -->
+<div class="modal-backdrop" id="saveModal">
+  <div class="modal-box">
+    <h3>Save your progress?</h3>
+    <p>Project Rose can remember where you left off, right on this device. No account needed.</p>
+    <div class="modal-actions">
+      <button class="btn" id="saveNoBtn">No thanks</button>
+      <button class="btn btn-primary" id="saveYesBtn">Yes, save it</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/components.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/chapter.js"></script>
+</body>
+</html>

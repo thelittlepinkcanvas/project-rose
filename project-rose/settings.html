@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Settings — Project Rose</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="site-nav"></div>
+
+<main>
+  <div class="page-head">
+    <p class="eyebrow">Preferences</p>
+    <h1>Settings</h1>
+  </div>
+
+  <div class="settings-list">
+
+    <div class="settings-row">
+      <div class="settings-label">
+        <h3>Save reading progress</h3>
+        <p class="settings-sub">Project Rose remembers your last chapter right on this device — no account, no server. Turning this off immediately clears your saved reading history.</p>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="saveToggle">
+        <span class="track"><span class="thumb"></span></span>
+      </label>
+    </div>
+
+    <div class="settings-row">
+      <div class="settings-label">
+        <h3>Font size</h3>
+        <p class="settings-sub">Adjusts the text size in the story reader.</p>
+      </div>
+      <select id="fontSizeSelect">
+        <option value="sm">Small</option>
+        <option value="md">Medium</option>
+        <option value="lg">Large</option>
+      </select>
+    </div>
+
+    <div class="settings-row">
+      <div class="settings-label">
+        <h3>Line height</h3>
+        <p class="settings-sub">Adjusts the spacing between lines in the story reader.</p>
+      </div>
+      <select id="lineHeightSelect">
+        <option value="compact">Compact</option>
+        <option value="normal">Normal</option>
+        <option value="relaxed">Relaxed</option>
+      </select>
+    </div>
+
+  </div>
+</main>
+
+<div id="site-footer"></div>
+
+<script src="js/components.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/settings.js"></script>
+</body>
+</html>
