@@ -79,11 +79,14 @@
         "Lady Holmes pondered. She remained silent for a while and gave him a grin. \"This case is interesting. I'll take on your case!\"",
         "\"Thank you so much! Lady Holmes!\" the man cheered.",
         "\"Of course!\" she giggled. \"You can just call me Alice. Pleased to make your acquaintance.\"",
-        "\"I'm Benedict Springwood. Same to you.\""
+        "\"I'm Benedict Springwood. Same to you.\"",
+        "<br>",
+        "Extra:"
       ],
       "images": [
         { "afterParagraph": 13, "src": "images/export202602172258340070.png"},
-        { "afterParagraph": 52, "src": "images/export202602172258340070.png"}
+        { "afterParagraph": 52, "src": "images/chp1scene2.png"},
+        { "afterParagraph": 54, "src": "images/chp1 extra.png"}
       ]
     },
     "2": {
