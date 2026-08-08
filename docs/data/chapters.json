@@ -57,7 +57,7 @@
         "\"I did!\" he cried. \"But no one believed me.\"",
         "\"What do you mean?\" She asked in disbelief.",
         "\"I was a cop.\" he explained, \"2 days ago, in the evening around 5.30 pm, when I was patrolling in an alley, I saw a hooded person kill a woman by strangling.\"",
-        "\"I tried to catch the person, but I lost them.\" he lowered my head in guilt. \"I tried to call back up. When they arrived, I guided them to the body, but when we reached there, the body disappeared!\"",
+        "\"I tried to catch the person, but I lost them.\" he lowered his head in guilt. \"I tried to call back up. When they arrived, I guided them to the body, but when we reached there, the body disappeared!\"",
         "\"Could it be an invisibility power user?\" Lady Holmes reasoned calmly.",
         "\"No, I don't think so.\" the man objected.",
         "\"Why?\"",
@@ -80,13 +80,12 @@
         "\"Thank you so much! Lady Holmes!\" the man cheered.",
         "\"Of course!\" she giggled. \"You can just call me Alice. Pleased to make your acquaintance.\"",
         "\"I'm Benedict Springwood. Same to you.\"",
-        "<br>",
-        "Extra:"
+        "<br>"
       ],
       "images": [
         { "afterParagraph": 13, "src": "images/export202602172258340070.png"},
         { "afterParagraph": 52, "src": "images/chp1scene2.png"},
-        { "afterParagraph": 54, "src": "images/chp1 extra.png"}
+        { "afterParagraph": 53, "src": "images/chp1 extra.png"}
       ]
     },
     "2": {
@@ -134,7 +133,7 @@
         "\"Pierce!\" Alice called out to the officer at the counter.",
         "\"Oh, Rosebloom,\" said the officer.",
         "<em>Rosebloom?</em> Benedict thought as he overheard the officer call out to Alice. He felt a sense of familiarity in that name, but he couldn't remember what and brushed it off.",
-        "The officer turned to Alice as she walked towards him. He was Benedict's former superior when he was still on the force. He's tall, with pale skin that made his dark circles stand out even more. He had slightly messy charcoal grey hair like he hadn't had time to fix it.",
+        "The officer turned to Alice as she walked towards him. He was Benedict's former superior when he was still on the force. He's slim and tall, wearing a complete police uniform. He had slightly messy charcoal grey hair like he hadn't had time to fix it.",
         "His dark red eyes shifted to Benedict with a stern glare as he noticed his presence.",
         "\"Hello, Detective Doberman...\" Benedict greeted him nervously. He lowered my head, afraid to meet his scary gaze.",
         "\"Springwood,\" Pierce replied with an unfriendly tone.",
@@ -170,7 +169,7 @@
       ],
       "images": [
         { "afterParagraph": 15, "src": "images/seperator.png"},
-        { "afterParagraph": 42, "src": "images/seperator.png"},
+        { "afterParagraph": 42, "src": "images/chp2scene1.png"},
         { "afterParagraph": 64, "src": "images/seperator.png"}
       ]
     },
