@@ -169,8 +169,9 @@
       ],
       "images": [
         { "afterParagraph": 15, "src": "images/seperator.png"},
-        { "afterParagraph": 42, "src": "images/chp2scene1.png"},
-        { "afterParagraph": 64, "src": "images/seperator.png"}
+        { "afterParagraph": 38, "src": "images/chp2scene1.png"},
+        { "afterParagraph": 63, "src": "images/chp2scene2.png"},
+        { "afterParagraph": 73, "src": "images/chp2extra.png"}
       ]
     },
     "3": {
