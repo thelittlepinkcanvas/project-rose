@@ -71,7 +71,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const recapModal = document.getElementById('recapModal');
   const recapCloseBtn = document.getElementById('recapCloseBtn');
-  if (Number(chapterId) >= 4) {
+  const recapModal = document.getElementById('recapModal');
+  const recapCloseBtn = document.getElementById('recapCloseBtn');
+  const recapText = document.getElementById('recapText');
+
+  if (chapter.recap) {
+    recapText.textContent = chapter.recap;
     recapModal.classList.add('open');
   }
   recapCloseBtn.addEventListener('click', () => recapModal.classList.remove('open'));

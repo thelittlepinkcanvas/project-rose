@@ -53,7 +53,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   // ---------- countdown to next chapter (editable via js/release-config.js) ----------
   const config = window.ProjectRoseReleaseConfig || {};
-  const targetDateStr = config[bookId];
+  const nextChapterNumber = book.chapters.length > 0
+    ? Math.max(...book.chapters) + 1
+    : 1;
+  const targetDateStr = config[nextChapterNumber];
 
   if (targetDateStr) {
     const target = new Date(targetDateStr + 'T00:00:00');
@@ -69,10 +72,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
       const hours = Math.floor((diffMs / (1000 * 60 * 60)) % 24);
-
-      countdownText.textContent = days > 0
+      const timeLeft = days > 0
         ? `${days} day${days === 1 ? '' : 's'} left`
         : `${hours} hour${hours === 1 ? '' : 's'} left`;
+
+      countdownText.textContent = `Chapter ${nextChapterNumber} — ${timeLeft}`;
       return true;
     }
 

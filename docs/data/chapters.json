@@ -262,12 +262,12 @@
         "It was Millie Anderson."
       ],
       "images": [
-        { "afterParagraph": 34, "src": "images/seperator.png"},
-        { "afterParagraph": 45, "src": "images/seperator.png"},
-        { "afterParagraph": 49, "src": "images/seperator.png"},
-        { "afterParagraph": 53, "src": "images/seperator.png"},
-        { "afterParagraph": 75, "src": "images/seperator.png"},
-        { "afterParagraph": 81, "src": "images/seperator.png"}
+        { "afterParagraph": 34, "src": "images/benedict record.png"},
+        { "afterParagraph": 45, "src": "images/alice record.png"},
+        { "afterParagraph": 49, "src": "images/pierce record.png"},
+        { "afterParagraph": 53, "src": "images/millie record.png"},
+        { "afterParagraph": 75, "src": "images/chp3scene1.png"},
+        { "afterParagraph": 81, "src": "images/chp3scene2.png"}
       ]
     }
   }
