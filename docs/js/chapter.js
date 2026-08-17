@@ -71,8 +71,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   const recapModal = document.getElementById('recapModal');
   const recapCloseBtn = document.getElementById('recapCloseBtn');
-  const recapModal = document.getElementById('recapModal');
-  const recapCloseBtn = document.getElementById('recapCloseBtn');
   const recapText = document.getElementById('recapText');
 
   if (chapter.recap) {
